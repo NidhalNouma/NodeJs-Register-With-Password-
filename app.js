@@ -10,6 +10,9 @@ const passportLocalMongoose = require("passport-local-mongoose");
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const findOrCreate = require('mongoose-findorcreate');
 
+ CLIENT_ID="560768197808-mur1p64ibglu85dndtbrf7qhdioa82i6.apps.googleusercontent.com";
+ CLIENT_SECRET="7OOLrGhqBgWoO1XBVBXhGO8q";
+
 const app = express();
 
 app.use(express.static("public"));
